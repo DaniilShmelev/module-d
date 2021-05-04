@@ -1,6 +1,6 @@
 steps:
 - checkout: self
-  submodules: true
+  submodules: recursive
   fetchDepth: 2
 
 - bash: |
