@@ -1,7 +1,6 @@
 steps:
 - checkout: self
   submodules: recursive
-  fetchDepth: 0
 
 - bash: |
     echo $PWD
