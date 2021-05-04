@@ -3,12 +3,19 @@ steps:
   submodules: true
   fetchDepth: 2
 
-- bash: git log
+- bash: |
+    echo $PWD
+    git log
+  displayName: 'Root'
 
 - bash: |
     cd ./module-b
+    echo $PWD
     git log
+  displayName: 'Submodule'
 
 - bash: |
     cd ./module-b/module-c
+    echo $PWD
     git log
+  displayName: 'Submodule of submodule'
