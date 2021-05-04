@@ -6,3 +6,4 @@ content
       c
 
 This is the root module
+It contains other mdls
