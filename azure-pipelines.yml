@@ -1,0 +1,6 @@
+steps:
+- checkout: self
+  submodules: true
+  fetchDepth: 2
+
+- bash: git log
