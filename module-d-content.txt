@@ -4,3 +4,5 @@ content
   a   b
       |
       c
+
+This is the root module
