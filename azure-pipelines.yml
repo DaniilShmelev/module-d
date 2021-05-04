@@ -4,3 +4,11 @@ steps:
   fetchDepth: 2
 
 - bash: git log
+
+- bash: |
+    cd ./module-b
+    git log
+
+- bash: |
+    cd ./module-b/module-c
+    git log
