@@ -1,0 +1,6 @@
+content
+    d
+  /   \
+  a   b
+      |
+      c
